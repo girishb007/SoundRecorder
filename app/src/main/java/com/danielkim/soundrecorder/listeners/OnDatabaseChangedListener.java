@@ -8,8 +8,3 @@ public interface OnDatabaseChangedListener{
     void onNewDatabaseEntryAdded();
     void onDatabaseEntryRenamed();
 }
-
-//dfsfdsfsd//
-//dss//
-//njj//
-//asscommt//
