@@ -78,10 +78,11 @@ public class RecordingItem implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
-        dest.writeInt(mId);
+
         dest.writeInt(mLength);
-        dest.writeLong(mTime);
+        dest.writeInt(mId);
         dest.writeString(mFilePath);
+        dest.writeLong(mTime);
         dest.writeString(mName);
     }
 
